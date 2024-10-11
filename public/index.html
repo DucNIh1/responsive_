@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="icon" href="./img//favicon/logo.avif" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>CoffeStyles</title>
+</head>
+<body>
+   <div class="root">
+        <div class="px-8 mx-auto text-base content-wrapper tqd-no-parallax font-Karla">
+            <header class="z-50 w-full p-6 mx-auto bg-white max-w-screen-2xl max-lg:px-4">
+                <nav class="flex items-center w-full justify-evenly max-lg:relative">
+                    <div class="text-xl font-semibold text-center cursor-pointer logo basis-2/6">
+                        CoffeeStyle.
+                    </div>
+                    <ul class="nav-menu flex basis-3/6 uppercase gap-8 cursor-pointer text-sm font-medium text-slate-500 items-center
+                     max-lg:hidden max-lg:z-40 max-lg:w-full max-lg:gap-4   max-lg:flex-col max-lg:absolute  max-lg:top-10
+                   max-lg:bg-white  max-lg:animate-[slideDown_0.6s_ease-in-out] lg:mr-2">
+                        <li class="ct-top-menu-item active"><a href="#">Home</a></li>
+                        <li class="ct-top-menu-item "><a href="#">Product</a></li>
+                        <li class="ct-top-menu-item "><a href="#">Blog</a></li>
+                        <li class="ct-top-menu-item "><a href="#">About</a></li>
+                        <li class="ct-top-menu-item "><a href="#">Contact</a></li>
+                        <li class="ct-top-menu-item "><a href="#">Styleguide</a></li>
+                    </ul>
+                    <ul class="flex items-center justify-start gap-8 text-sm font-medium uppercase basis-1/6 max-lg:justify-end text-slate-400 max-lg:basis-4/6">
+                        <li class="ct-top-menu-item ">
+                            <a href="#" class="flex items-center gap-2">
+                                <span><i class='text-xl bx bx-shopping-bag'></i></span>
+                                <span>Card</span>
+                                <span class="px-[7px] rounded-full bg-orange-400 text-white flex items-center justify-center text-[12px] font-semibold">72</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <div class="w-5 h-5 px-3 text-xl cursor-pointer toggle-nav-menu lg:hidden basis-1/6 sm:px-8"><i class='bx bx-menu'></i></div>
+                </nav>
+            </header>
+            <main class="">
+                <div class="slider w-full bg-red-300 h-[600px] max-w-screen-2xl bg-[url('./img/slider-bg.jpeg')] bg-bottom bg-cover max-md:h-[400px] bg-fixed">
+                    <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-40">
+                        <div class="mx-16 text-center text-white min-w-[220px]" >
+                            <h2 class="mb-6 font-medium uppercase">Best Place To Buy Coffee</h2>
+                            <h1 class="mb-6 text-5xl font-semibold">Coffee Mugs</h1>
+                            <p class="mb-8 text-lg font-semibold max-md:hidden">The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</p>
+                            <a href="#" class=""><button class="cursor-pointer max-w-[250px] uppercase w-full text-[12px] px-2 py-4 text-black transition-all duration-150 ease-in-out bg-white hover:bg-slate-100 max-md:px-4 max-md:py-3 max-md:font-medium">Explore Our Products</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End slider -->
+                <div class="ct-line-wrapper">
+                    <div class="ct-line "></div>
+                    <div class="ct-line-content">Our coffee story</div>
+                    <div class="ct-line "></div>
+
+                </div>
+                <div class="flex  justify-center gap-4 story max-lg:flex-col lg:w-[65%] mx-auto">
+                    <div class="h-full basis-1/2">
+                        <video src="./img/coffee-video.mp4" autoplay loop muted  class="w-full h-full min-h-[350px] object-cover"></video>
+                    </div>
+                    <div class="flex flex-col pl-6 basis-1/2">
+                        <h1 class="mb-6 text-3xl leading-10 max-lg:text-center">What is your most special coffee?</h1>
+                        <p class="text-[#6B7280] leading-8 mb-6 max-lg:text-center">The French Press is a brewing method that comes closest to cupping. Cupping is the prescribed method by which coffee
+                        should be judged. Nothing separates the water from the coffee. To properly discover the flavours, it is best to drink
+                        the coffee this way. Everyone has their favourite brewing method.</p>
+                        <a href="#" class="max-lg:flex"><button class="px-4 py-2 mx-auto transition-all duration-150 ease-linear bg-yellow-700 rounded-lg cursor-pointer text-yellow-50 hover:bg-yellow-600">Red the full Story</button></a>
+                    </div>
+                </div>
+                <!-- End story -->
+                <div class="ct-line-wrapper">
+                    <div class="ct-line "></div>
+                    <div class="ct-line-content">FEATURED MUGS</div>
+                    <div class="ct-line "></div>
+                
+                </div>
+                <div class="z-10 w-full featured-mugs">
+                    <div class="grid grid-cols-2 xl:w-[65%] mx-auto gap-4 max-lg:grid-cols-1">
+                       <div class="">
+                        <div class="h-[540px] card-feture-mug bg-[url('./img/featured-mug-01.jpg')] group hover:animate-fadeIn">
+                            <div class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all"></div>
+                            <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                            <div class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">EXPLORE MUG</div>
+                        </div>
+                        <div class="mt-8 text-center">
+                            <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                            <span class="card-feture-mug-price">$99.00 USD</span>
+                        </div>
+                       </div>
+                        <div class="">
+                            <div class="h-[540px] card-feture-mug bg-[url('./img/featured-mug-02.jpg')] group hover:animate-fadeIn">
+                                <div class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                </div>
+                                <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                <div
+                                    class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn" >
+                                    EXPLORE MUG
+                                </div>
+                            </div>
+                            <div class="mt-8 text-center">
+                                <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                <span class="mr-2 text-lg font-semibold text-light-coffee">$50.00 </span>
+                                <span class="line-through card-feture-mug-price">$69.00 USD</span>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <!-- End featured-mugs -->
+                <div class="ct-line-wrapper">
+                    <div class="ct-line "></div>
+                    <div class="ct-line-content">MORE PRODUCTS</div>
+                    <div class="ct-line "></div>
+                
+                </div>
+                <div class="more-products">
+                    <div class="w-full featured-mugs">
+                        <div class="grid grid-cols-3 xl:w-[65%] mx-auto gap-4 max-lg:grid-cols-2 max-md:grid-cols-1">
+                            <div class="">
+                                <div class=" xl:h-[380px] lg:h-[340px] card-feture-mug bg-[url('./img/product-coffee-01.jpeg')] group hover:animate-fadeIn">
+                                    <div
+                                        class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                    </div>
+                                    <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                    <div
+                                        class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                        EXPLORE MUG</div>
+                                </div>
+                                <div class="mt-8 text-center">
+                                    <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                    <span class="card-feture-mug-price">$99.00 USD</span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="xl:h-[380px] lg:h-[340px] card-feture-mug bg-[url('./img/product-coffee-02.jpeg')] group hover:animate-fadeIn">
+                                    <div
+                                        class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                    </div>
+                                    <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                    <div
+                                        class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                        EXPLORE MUG
+                                    </div>
+                                </div>
+                                <div class="mt-8 text-center">
+                                    <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                    <span class="mr-2 text-lg font-semibold text-light-coffee">$50.00 </span>
+                                    <span class="line-through card-feture-mug-price">$69.00 USD</span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="xl:h-[380px] lg:h-[340px] card-feture-mug bg-[url('./img/product-coffee-03.jpeg')] group hover:animate-fadeIn">
+                                    <div
+                                        class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                    </div>
+                                    <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                    <div
+                                        class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                        EXPLORE MUG
+                                    </div>
+                                </div>
+                                <div class="mt-8 text-center">
+                                    <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                    <span class="mr-2 text-lg font-semibold text-light-coffee">$50.00 </span>
+                                    <span class="line-through card-feture-mug-price">$69.00 USD</span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="xl:h-[380px] lg:h-[340px] card-feture-mug bg-[url('./img/featured-mug-02.jpg')] group hover:animate-fadeIn">
+                                    <div
+                                        class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                    </div>
+                                    <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                    <div
+                                        class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                        EXPLORE MUG
+                                    </div>
+                                </div>
+                                <div class="mt-8 text-center">
+                                    <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                    <span class="mr-2 text-lg font-semibold text-light-coffee">$50.00 </span>
+                                    <span class="line-through card-feture-mug-price">$69.00 USD</span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class=" xl:h-[380px] lg:h-[340px] card-feture-mug bg-[url('./img/product-coffee-04.jpeg')] group hover:animate-fadeIn">
+                                    <div
+                                        class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                    </div>
+                                    <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                    <div
+                                        class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                        EXPLORE MUG
+                                    </div>
+                                </div>
+                                <div class="mt-8 text-center">
+                                    <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                    <span class="mr-2 text-lg font-semibold text-light-coffee">$50.00 </span>
+                                    <span class="line-through card-feture-mug-price">$69.00 USD</span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="xl:h-[380px] lg:h-[340px] card-feture-mug bg-[url('./img/product-coffee-05.jpeg')] group hover:animate-fadeIn">
+                                    <div
+                                        class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                    </div>
+                                    <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                    <div
+                                        class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                        EXPLORE MUG
+                                    </div>
+                                </div>
+                                <div class="mt-8 text-center">
+                                    <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                    <span class="mr-2 text-lg font-semibold text-light-coffee">$50.00 </span>
+                                    <span class="line-through card-feture-mug-price">$69.00 USD</span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="xl:h-[380px] lg:h-[340px] card-feture-mug bg-[url('./img/product-coffee-06.jpeg')] group hover:animate-fadeIn">
+                                    <div
+                                        class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                    </div>
+                                    <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                    <div
+                                        class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                        EXPLORE MUG
+                                    </div>
+                                </div>
+                                <div class="mt-8 text-center">
+                                    <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                    <span class="mr-2 text-lg font-semibold text-light-coffee">$50.00 </span>
+                                    <span class="line-through card-feture-mug-price">$69.00 USD</span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="xl:h-[380px] lg:h-[340px] card-feture-mug bg-[url('./img/product-coffee-07.jpeg')] group hover:animate-fadeIn">
+                                    <div
+                                        class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                    </div>
+                                    <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                    <div
+                                        class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                        EXPLORE MUG
+                                    </div>
+                                </div>
+                                <div class="mt-8 text-center">
+                                    <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                    <span class="mr-2 text-lg font-semibold text-light-coffee">$50.00 </span>
+                                    <span class="line-through card-feture-mug-price">$69.00 USD</span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="xl:h-[380px] lg:h-[340px] card-feture-mug bg-[url('./img/product-coffee-08.jpeg')] group hover:animate-fadeIn">
+                                    <div
+                                        class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                                    </div>
+                                    <div class="absolute px-4 py-2 bg-white top-4 right-4 text-light-coffee">On Sale</div>
+                                    <div
+                                        class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                        EXPLORE MUG
+                                    </div>
+                                </div>
+                                <div class="mt-8 text-center">
+                                    <h1 class="mb-3 text-lg font-medium uppercase cursor-pointer">Pink Premium Ceramic</h1>
+                                    <span class="mr-2 text-lg font-semibold text-light-coffee">$50.00 </span>
+                                    <span class="line-through card-feture-mug-price">$69.00 USD</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="ct-line-wrapper">
+                    <div class="ct-line "></div>
+                    <div class="ct-line-content">BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE</div>
+                    <div class="ct-line "></div>
+                
+                </div>
+                <!-- End more-products -->
+                <div class="w-full coffee-magazine xl:w-[65%] mx-auto mb-6">
+                    <!-- <div class=" xl:w-[65%]  mx-auto flex gap-5  max-lg:flex-col max-lg:h-[800px]">
+                        <div class="flex h-full gap-5 basis-1/2 md:gap-4 max-lg:flex-col ">
+                            <div class="bg-[url('./img/magazine-image-01.jpeg')] bg-cover bg-center basis-3/5 lg:h-[280px] md:h-[300px]">
+                            </div>
+                            <div class="flex flex-col gap-5 basis-2/5 max-lg:flex-row lg:h-[280px] md:h-[300px]"> 
+                                <div class="bg-[url('./img/magazine-image-02.jpeg')] bg-cover bg-center basis-1/2">
+                                </div>
+                                <div class="bg-[url('./img/magazine-image-03.jpeg')] bg-cover bg-center basis-1/2">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    <div class="flex flex-col justify-center gap-4 pl-4 basis-1/2 md:gap-2 lg:h-[280px] md:h-[300px] max-lg:text-center">
+                        <p class="uppercase text-slate-500">PREMIUM OFFER</p>
+                        <h1 class="text-4xl ">Get our Coffee Magazine</h1>
+                        <p class="text-lg font-medium text-slate-500">The most versatile furniture system ever created. Designed to fit your life.</p>
+                        <button class="px-2 py-4 text-white uppercase bg-black w-[200px] text-sm hover:bg-opacity-30 animate-fadeIn max-lg:mx-auto">start shopping</button>
+                    </div>
+
+                    </div> -->
+                    <div class="flex flex-row gap-5 max-md:flex-col">
+                        <div class="flex gap-5 magazine-img basis-1/2 max-md:block">
+                            <div class="image-left bg-[url('./img/magazine-image-01.jpeg')] bg-no-repeat bg-cover bg-center h-[280px] basis-2/3 mb-5"></div>
+                            <div class="flex flex-col gap-5 img-right basis-1/3 max-md:flex-row max-md:basis-1/3">
+                                <div class="img-top bg-[url('./img/magazine-image-02.jpeg')] bg-cover bg-center h-[130px] max-md:basis-1/2"></div>
+                                <div class="img-bot bg-[url('./img/magazine-image-03.jpeg')] bg-cover bg-center h-[130px] max-md:basis-1/2"></div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-4 pl-4 magazine-post basis-1/2 max-md:justify-center max-md:text-center max-md:items-center">
+                            <p class="uppercase text-slate-500">PREMIUM OFFER</p>
+                            <h1 class="text-4xl ">Get our Coffee Magazine</h1>
+                            <p class="text-lg font-medium text-slate-500">The most versatile furniture system ever created. Designed to fit your
+                                life.</p>
+                            <button class="px-2 py-4 text-white uppercase bg-black w-[200px] text-sm hover:bg-opacity-30 animate-fadeIn">start
+                                shopping
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- End coffee-magazine -->
+                <div class=" h-[40vh] relative ml-[-32px] mr-[-32px]">
+                    <div class="absolute w-full h-full bg-[url('./img/lifestyle-story-02.jpeg')] bg-cover bg-center bg-fixed"></div>
+                </div>
+                <div class="ct-line-wrapper">
+                    <div class="ct-line "></div>
+                    <div class="ct-line-content">BEHIND THE MUGS, LIFESTYLE STORIES</div>
+                    <div class="ct-line "></div>
+                
+                </div>
+                <div class="lifestyles-stories xl:w-[65%] grid grid-cols-3 mx-auto gap-5 max-lg:grid-cols-2 max-md:grid-cols-1 mb-24">
+                    <div class="">
+                        <div class="h-[300px] card-feture-mug bg-[url('./img/lifestyle-story-01.jpeg')] group hover:animate-fadeIn">
+                            <div
+                                class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                            </div>
+                            <div
+                                class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                read the full story
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h1 class="mb-3 text-sm font-medium leading-7 uppercase cursor-pointer hover:text-light-coffee">Health Check: why do I get a headache when I haven't had my coffee?</h1>
+                            <p class="mb-4 card-feture-mug-price">It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                            <span class="card-feture-mug-price">OCTOBER 9, 2018</span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="h-[300px] card-feture-mug bg-[url('./img/lifestyle-story-02.jpeg')] group hover:animate-fadeIn">
+                            <div
+                                class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                            </div>
+                            <div
+                                class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                read the full story
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h1 class="mb-3 text-sm font-medium leading-7 uppercase cursor-pointer hover:text-light-coffee">It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem.</h1>
+                            <p class="mb-4 card-feture-mug-price">It is a paradisematic country, in which roasted parts of sentences fly
+                                into your mouth.</p>
+                            <span class="card-feture-mug-price">OCTOBER 9, 2018</span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="h-[300px] card-feture-mug bg-[url('./img/lifestyle-story-03.jpeg')] group hover:animate-fadeIn">
+                            <div
+                                class="absolute w-full h-full hover:duration-500 hover:ease-in-out hover:bg-gray-800 hover:bg-opacity-10 hover:transition-all">
+                            </div>
+                            <div
+                                class="absolute hidden w-11/12 px-4 py-2 text-lg font-medium text-center text-black uppercase -translate-x-1/2 bg-white bottom-4 left-1/2 group-hover:block group-hover:animate-fadeIn">
+                                read the full story
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h1 class="mb-3 text-sm font-medium leading-7 uppercase cursor-pointer hover:text-light-coffee">Health Check:
+                                why do I get a headache when I haven't had my coffee?</h1>
+                            <p class="mb-4 card-feture-mug-price">It is a paradisematic country, in which roasted parts of sentences fly
+                                into your mouth.</p>
+                            <span class="card-feture-mug-price">OCTOBER 9, 2018</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- End lifestyles-stories -->
+                <div class="subscribe h-[40vh] bg-[#1d1f2e] flex flex-col justify-center items-center gap-5 mb-24">
+                    <div class="flex items-center justify-center ">
+                        <div class="ct-line "></div>
+                        <div class="uppercase mx-[1rem] text-xs  text-slate-200 max-md:text-[10px]">SIGN UP AND GET FREE COFFEE BAGS</div>
+                        <div class="ct-line "></div>
+                    
+                    </div>
+                    <h1 class="text-3xl font-medium text-white">Coffee Updates</h1>
+                    <div class="flex gap-4 max-md:flex-col">
+                        <input type="text" placeholder="Ducninh10x03@gmail.com" class="px-6 py-3 text-gray-200 bg-transparent border outline-none border-slate-100 border-opacity-20 focus:border-opacity-100">
+                        <button class="text-sm font-medium px-5 py-3 uppercase text-[#1d1f2e] bg-white cursor-pointer hover:bg-slate-200 transition-all ease-in-out duration-200">Subcribe</button>
+                    </div>
+                </div>
+                <!-- End subscribe -->
+            </main>
+            <footer>
+                <div class="flex gap-3 pb-24 text-sm xl:max-w-[65%] mx-auto justify-center max-md:flex-col max-md:items-center max-md:text-center max-md:gap-8">
+                    <div class="basis-1/3">
+                        <h1 class="text-[20px] mb-4 text-[#1f2951] font-semibold">CoffeeStyle.</h1>
+                        <p class="mb-20 text-slate-400">Delivering the best coffee life since 1996. From coffee geeks to the real ones.</p>
+                        <span class="text-[12px] text-slate-400">DevByNinh. © 2023</span>
+                    </div>
+                    <div class="flex flex-col gap-3 basis-1/6">
+                        <h2 class="text-lg uppercase text-[#4B5563] ">Menu</h2>
+                        <span class="text-[#6B7280]">Home</span>
+                        <span class="text-[#6B7280]">Our Products</span>
+                        <span class="text-[#6B7280]">About</span>
+                        <span class="text-[#6B7280]">Contact</span>
+                        <span class="text-[#6B7280]">Styleguide</span>
+                    </div>
+                    <div class="flex flex-col gap-3 basis-1/6">
+                        <h2 class="text-lg uppercase text-[#4B5563]">FOLLLOW US</h2>
+                        <span class="text-[#6B7280]"><a href="">Facebook</a></span>
+                        <span class="text-[#6B7280]">Instagram</span>
+                        <span class="text-[#6B7280]">Pinterest</span>
+                        <span class="text-[#6B7280]">Twitter</span>
+                    </div>
+                    <div class="basis-1/3">
+                        <h1 class="text-[18px] mb-4  font-medium">CONTACT US</h1>
+                        <p class="mb-4 text-slate-400">We're Always Happy to Help</p>
+                        <p class="text-[20px] mb-20 max-lg:text-lg hover:text-light-coffee">Ducninh10x03@gmail.com</p>
+                        <span class="text-[12px] text-slate-400">DevByNinh. © 2023</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- End wrapper -->
+   </div>  
+   <!-- End root -->
+
+   <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "coffee",
+  "version": "1.0.0",
+  "description": "coffeStyles.com",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "firebase": "^9.23.0",
+    "live-server": "^1.2.2"
+  }
+}
